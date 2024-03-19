@@ -1,0 +1,31 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://moniolivo.github.io/testing-it-out/test-video/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "Test video" ] },
+    "items": [
+      {
+        "id": "https://moniolivo.github.io/testing-it-out/test-video/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": 22,
+        "items": [
+          {
+            "id": "https://moniolivo.github.io/testing-it-out/test-video/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://moniolivo.github.io/testing-it-out/test-video/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://ia600208.us.archive.org/16/items/c-0087/C0087.MP4",
+                    "duration": 22
+                },
+                "target": "https://moniolivo.github.io/testing-it-out/test-video/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
