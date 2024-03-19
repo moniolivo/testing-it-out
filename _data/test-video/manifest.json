@@ -8,6 +8,16 @@
         "id": "https://moniolivo.github.io/testing-it-out/test-video/canvas-1/canvas",
         "type": "Canvas",
         "duration": 22,
+        "annotations": [
+          
+          {
+            "type": "AnnotationPage",
+            "id": "https://moniolivo.github.io/testing-it-out/annotations/test-video-canvas-1-layer.json",
+            "label": {
+              "none": ["Layer"]
+            }
+          }
+        ],
         "items": [
           {
             "id": "https://moniolivo.github.io/testing-it-out/test-video/canvas-1/paintings",
